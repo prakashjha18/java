@@ -49,7 +49,7 @@ The substring with start index = 2 is "ab", which is an anagram of "ab".
 
 ```
 
-## Practice Here
+## Solution
 https://github.com/prakashjha18/java/blob/master/anagramsub.java
 
 
