@@ -50,6 +50,6 @@ The substring with start index = 2 is "ab", which is an anagram of "ab".
 ```
 
 ## Practice Here
-https://leetcode.com/problems/find-all-anagrams-in-a-string/description/
+https://github.com/prakashjha18/java/blob/master/anagramsub.java
 
 
