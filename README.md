@@ -52,4 +52,15 @@ The substring with start index = 2 is "ab", which is an anagram of "ab".
 ## Solution
 https://github.com/prakashjha18/java/blob/master/anagramsub.java
 
+# convert dd/mm/yyyy to weekday
+```
+Input:
+08 05 2015
+Output:
+WEDNESDAY
+```
+## Solution
+https://github.com/prakashjha18/java/blob/master/Datetime.java
+
+
 
