@@ -62,5 +62,24 @@ WEDNESDAY
 ## Solution
 https://github.com/prakashjha18/java/blob/master/Datetime.java
 
+# Java Substring Comparisons
+Sample Input 
+```
+welcometojava
+3
+```
+Sample Output 
+```
+ava
+wel
+```
+explanation 
+```
+String S= 'welcometojava' has the following lexicographically-ordered substrings of length :k=3
 
+We then return the first (lexicographically smallest) substring and the last (lexicographically largest) substring as two newline-separated values (i.e., ava\nwel).
 
+The stub code in the editor then prints ava as our first line of output and wel as our second line of output.
+```
+## Solution
+https://github.com/prakashjha18/java/blob/master/Strcomp.java
