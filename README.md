@@ -1,5 +1,5 @@
 # java
-# Find All Anagrams in a String
+# 1. Find All Anagrams in a String
 
 Given a string s and a non-empty string p, find all the start indices of p's anagrams in s.
 
@@ -52,7 +52,7 @@ The substring with start index = 2 is "ab", which is an anagram of "ab".
 ## Solution
 https://github.com/prakashjha18/java/blob/master/anagramsub.java
 
-# convert dd/mm/yyyy to weekday
+# 2. convert dd/mm/yyyy to weekday
 ```
 Input:
 08 05 2015
@@ -62,7 +62,7 @@ WEDNESDAY
 ## Solution
 https://github.com/prakashjha18/java/blob/master/Datetime.java
 
-# Java Substring Comparisons
+# 3. Java Substring Comparisons
 Sample Input 
 ```
 welcometojava
@@ -84,7 +84,7 @@ The stub code in the editor then prints ava as our first line of output and wel 
 ## Solution
 https://github.com/prakashjha18/java/blob/master/Strcomp.java
 
-# Java Regex
+# 4. Java Regex
 Write a class called MyRegex which will contain a string pattern. You need to write a regular expression and assign it to the pattern such that it can be used to validate an IP address. Use the following definition of an IP address:
 ```
 IP address is a string in the form "A.B.C.D", where the value of A, B, C, and D may range from 0 to 255. Leading zeros are allowed. The length of A, B, C, or D can't be greater than 3.
@@ -130,7 +130,7 @@ false
 ## Solution
 https://github.com/prakashjha18/java/blob/master/regexip.java
 
-# Java String Token
+# 5. Java String Token
 
 Given a string, , matching the regular expression [A-Za-z !,?._'@]+, split the string into tokens. We define a token to be one or more consecutive English alphabetic letters. Then, print the number of tokens, followed by each token on a new line.
 
