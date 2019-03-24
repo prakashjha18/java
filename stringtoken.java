@@ -7,18 +7,21 @@ public class stringtoken {
     Scanner scan = new Scanner(System.in);    
     String s = scan.nextLine();
     String[] items = s.trim().split("[ !,?.\\_'@]+");
-
+    
     if(s.length()>0){
     if(s.length() > 400000){
         return;
     }
+    else if (s == null || s.trim().equals("")) {
+           System.out.println("0");
+ }
     else{
        System.out.println(items.length);
     }}
     else{
-        System.out.println(""); 
+        System.out.println("0"); 
     }    
-
+   
     for(String item: items){
         System.out.println(item);
     }
