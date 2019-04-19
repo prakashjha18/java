@@ -168,4 +168,8 @@ We consider a token to be a contiguous segment of alphabetic characters. There a
 ```
 ## Solution
 https://github.com/prakashjha18/java/blob/master/stringtoken.java
-```
+
+# Java 2D Array
+https://www.hackerrank.com/challenges/java-2d-array/problem
+## Solution
+https://github.com/prakashjha18/java/blob/master/2darr.java
