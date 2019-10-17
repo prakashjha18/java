@@ -24,6 +24,7 @@ public class currform {
         System.out.println("US: "     + us.format(payment));
         System.out.println("India: "  + india.format(payment));
         System.out.println("China: "  + china.format(payment));
+        //op
         System.out.println("France: " + france.format(payment));
     }
 }
