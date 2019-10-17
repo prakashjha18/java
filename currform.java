@@ -27,3 +27,4 @@ public class currform {
         System.out.println("France: " + france.format(payment));
     }
 }
+// close
