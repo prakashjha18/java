@@ -26,7 +26,7 @@ public class SherlockAndTheValidString {
         if (map.size() == 1)
             return "YES";
         if (map.size() == 2) {
-            Set<Entry<Integer, Integer>> entrySet = map.entrySet();
+            Set entrySet = map.entrySet();
             Iterator it = entrySet.iterator();
             Entry<Integer, Integer> e1 = (Entry<Integer, Integer>) it.next();
             int key1 = e1.getKey();
