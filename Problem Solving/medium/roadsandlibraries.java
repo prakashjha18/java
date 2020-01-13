@@ -1,5 +1,5 @@
 import java.util.*;
-public class roadsandlibraries {
+public class Solution {
     private static ArrayList<Integer>[] adjCities;
     private static int connectedComponents;
     private static boolean[] visited;
@@ -19,7 +19,7 @@ public class roadsandlibraries {
                 continue;
             }
             else{
-                adjCities = (ArrayList<Integer>[]) new ArrayList[cities+1];
+                adjCities =  new ArrayList[cities+1];
                 for (int c = 0; c <= cities; c++) {
                     adjCities[c] = new ArrayList<Integer>();
                 }
@@ -46,7 +46,8 @@ public class roadsandlibraries {
     private static void dfs(int city){
         visited[city] = true;
         for (int c = 0; c < adjCities[city].size(); c++){
-            if(!visited[adjCities[city].get(c)]){dfs(adjCities[city].get(c));
+            if(!visited[adjCities[city].get(c)]){
+                dfs(adjCities[city].get(c));
             }
         }
     }
