@@ -19,7 +19,7 @@ public class shortpalindrome {
             ans += (arr3[index]%mod);
             //System.out.print(ans+" ");
             ans = ans%mod;
-            System.out.print(ans+" ");
+            //System.out.print(ans+" ");
             for (int j = 0; j < 26; j++){
                 arr3[j] += (arr2[j][index]%mod);
                 arr3[j] = arr3[j]%mod;
